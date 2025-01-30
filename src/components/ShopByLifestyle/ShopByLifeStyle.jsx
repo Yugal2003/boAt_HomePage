@@ -8,7 +8,7 @@ import YJ from '../../assets/ShopByLifeStyle/YJ.webp';
 const ShopByLifeStyle = () => {
   return (
     <div className='mt-6 pt-4 md:pt-6'>
-        <div>
+        <div className="flex w-full max-w-[1600px] mx-auto">    
             <div className='flex flex-col w-full bm:w-[98%] px-2 bm:px-1 mx-auto'>
                 {/* header */}
                 <div className='flex w-[98%] bw:w-[95%] justify-between mx-auto items-center'>

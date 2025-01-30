@@ -19,7 +19,7 @@ const Blogs = () => {
       key: "Popular",
       label: "Popular",
       content: (
-        <div className="lg:grid lg:grid-cols-4 gap-4 flex overflow-x-auto whitespace-nowrap">
+        <div className="lg:grid lg:grid-cols-4 gap-4 flex overflow-x-auto scrollbar-hide whitespace-nowrap">
           {/* first */}
           <div className="flex-shrink-0 w-72 lg:w-auto">
             <div>
@@ -547,10 +547,10 @@ const Blogs = () => {
 
   return (
     <div className="mt-8">
-      <div>
-        <div className="flex flex-col w-full px-2 bm:px-3 3xl:px-1 mx-auto">
+      <div className="flex w-full max-w-[1600px] mx-auto">      
+        <div className="flex flex-col w-full px-0 bm:px-3 3xl:px-1 mx-auto">
           {/* header */}
-          <div className="flex w-[98%] bw:w-[95%] justify-between mx-auto items-center">
+          <div className="flex w-[100%] md:w-[80%] bm:w-[95%] justify-between mx-auto items-center">
             <div>
               <h1 className="text-[1.5rem] font-metropolis">
                 <span className="font-medium"></span>{" "}
@@ -571,7 +571,7 @@ const Blogs = () => {
 
           {/* 5 Option to select */}
           <div className="w-full">
-            <div className="flex gap-6 my-2 items-center w-[98%] bw:w-[95%] mx-auto">
+            <div className="flex gap-6 my-2 items-center w-[100%] md:w-[80%] bm:w-[95%] mx-auto">
               {sections.map((section) => (
                 <div
                   key={section.key}
@@ -606,7 +606,7 @@ const Blogs = () => {
 
           {/* text with img */}
           {/* after bm(1024px) show */}
-          <div className="hidden lg:flex w-full lg:w-[95%] pr-0 xl:pr-2 mt-2 gap-2 xl:gap-4 rounded-md mx-auto">
+          <div className="hidden lg:flex w-[100%] md:w-[80%] bm:w-[95%] pr-0 xl:pr-2 mt-2 gap-2 xl:gap-4 rounded-md mx-auto">
             {" "}
             {/* apply grid hear */}
             {
@@ -618,7 +618,7 @@ const Blogs = () => {
           {/* text with img */}
           {/* below bm(1024px) show */}
           <div className="block lg:hidden w-full mx-auto mt-4">
-            <div className="w-[100%] flex mx-auto gap-6 px-2">
+            <div className="w-[100%] md:w-[80%] bm:w-[95%] flex mx-auto gap-6 px-0.5">
               {
                 sections.find((section) => section.key === changeImageSection)
                   ?.content

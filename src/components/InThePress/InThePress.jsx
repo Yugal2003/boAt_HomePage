@@ -6,11 +6,11 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const InThePress = () => {
   return (
-    <div className="mt-6 lm:mt-10 pt-4 md:pt-0">
-      <div>
+    <div className="mt-10 lm:mt-10 pt-4 md:pt-0">
+      <div className="flex w-full max-w-[1600px] mx-auto">      
         <div className="flex flex-col w-full px-2 bm:px-1 mx-auto">
           {/* header */}
-          <div className="flex w-[98%] md:w-[82%] bm:w-[93%] lm:w-[95%] justify-between mx-auto items-center">
+          <div className="flex w-[92%] md:w-[82%] bm:w-[93%] lm:w-[95%] justify-between mx-auto items-center">
             <div>
               <h1 className="text-[1.5rem]">
                 <span className="font-semibold">In the</span>{" "}
@@ -31,7 +31,7 @@ const InThePress = () => {
 
           {/* text _ img */}
           {/* below 1100px screen */}
-          <div className="w-[98%] md:w-[82%] bm:w-[93%] bg-[#f7f9fa] mx-auto block lm:hidden mt-2">
+          <div className="w-[92%] md:w-[82%] bm:w-[93%] lm:w-[95%] bg-[#f7f9fa] mx-auto block lm:hidden mt-2">
               {/* comma + text */}
               <div className="flex flex-col items-center justify-center mx-auto text-center mt-8">
                 <div>
@@ -45,7 +45,7 @@ const InThePress = () => {
                       </svg>
                     </p>
                 </div>
-                <div className="px-12">
+                <div className="px-10">
                   <h1 className="text-[1.32rem] text-[#666666]">boAt is the first company from the consumer lifestyle electronics industry to collaborate with the ICEA to bring out the Indigenous IP.</h1>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const InThePress = () => {
 
           {/* text _ img */}
           {/* above 1100px screen */}
-          <div className="hidden lm:flex bg-[#d0d9de] w-[98%] bw:w-[95%] justify-between mx-auto items-center mt-4">
+          <div className="hidden lm:flex bg-[#d0d9de] w-[92%] md:w-[85%] bm:w-[93%] lm:w-[95%] justify-between mx-auto items-center mt-4">
               {/* img */}
               <div className="lm:min-w-[38.5%] flex items-center justify-center">
                 <img src={img} alt="img"/>

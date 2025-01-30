@@ -7,7 +7,6 @@ const Subscribe = () => {
     <div>
         <div>
             <div className='w-full'>
-
                 {/* 0 to 767px */}
                 <div className='mt-24 bg-[#e7f0f5] mx-auto w-[95%] flex md:hidden flex-col justify-center items-center'>
                     {/* boat text */}

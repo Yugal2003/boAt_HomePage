@@ -1554,10 +1554,10 @@ const RepublicDeals = () => {
   
   return (
     <div className='mt-3'>
-        <div>
+        <div className="flex w-full mx-auto max-w-[1600px]">
             <div className='flex flex-col w-full px-2 bm:px-1 mx-auto'>
                 {/* header */}
-                <div className='flex w-[98%] bw:w-[95%] justify-between mx-auto items-center'>
+                <div className='w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex justify-between mx-auto items-center'>                
                     <div>
                         <h1 className='text-[1.5rem] font-metropolis'><span className='font-medium'>Republic Day</span> <span className='font-bold'>Dea<span className='decoration-[0.15rem] underline decoration-red-500'>ls</span></span></h1>
                     </div>
@@ -1567,7 +1567,7 @@ const RepublicDeals = () => {
                 </div>
 
                 {/* 5 Option to select */}
-                <div className='w-full overflow-x-auto sm:overflow-x-hidden mx-auto scrollbar-hide'>
+                <div className='pl-0 bw:pl-4 md:pl-2 w-full overflow-x-auto sm:overflow-x-hidden mx-auto scrollbar-hide'>
                     <div className='flex gap-3 sm:gap-6 my-3 sm:my-2 items-center w-max sm:w-[95%] mx-auto whitespace-nowrap'>
                         {sections.map((section) => (
                             <div
@@ -1586,8 +1586,8 @@ const RepublicDeals = () => {
                 </div>
 
                 {/* text with img */}
-                <div className='w-full bw:w-[95%] mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'>
-                        {sections.find((section) => section.key === changeImageSection)?.content}
+                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
+                    {sections.find((section) => section.key === changeImageSection)?.content}
                 </div>
             </div>
         </div>

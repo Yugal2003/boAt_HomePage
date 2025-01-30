@@ -14,10 +14,10 @@ import ten from '../../assets/ShopByCategoriesAssets/ten.png';
 const SaleLive = () => {
   return (
     <div className='mt-6'>
-        <div>
+        <div className="flex w-full max-w-[1600px] mx-auto">    
             <div className='flex flex-col w-full px-2 bm:px-1 mx-auto'>
                 {/* header */}
-                <div className='flex w-[98%] bw:w-[95%] justify-between mx-auto items-center mb-[2.5rem]'>
+                <div className='w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex justify-between mx-auto items-center  mb-[2.5rem]'>                
                     <div>
                         <h1 className='text-[1.5rem] font-metropolis'><span className='font-medium'>Shop by</span> <span className='font-bold'>Categori<span className='decoration-[0.12rem] underline decoration-red-500'>es</span></span></h1>
                     </div>
@@ -28,7 +28,7 @@ const SaleLive = () => {
 
                 {/* img with text */}
                 <div className='w-full mx-auto'>
-                    <div className='grid grid-cols-4 base:grid-cols-5 md:grid-cols-10 w-full bw:w-[95%] mx-auto gap-4 bw:gap-8 md:gap-4'>
+                    <div className='grid grid-cols-4 base:grid-cols-5 md:grid-cols-10 w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] mx-auto gap-4 bw:gap-8 md:gap-4'>
 
                         <div className='w-full flex flex-col items-center aspect-[16/9] relative'>
                             <img src={first} alt='img' className='object-contain w-full h-full'/>

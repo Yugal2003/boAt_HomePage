@@ -97,55 +97,57 @@ const JoinTheTribe = () => {
 
   return (
     <div className="mt-6">
-      <div className="flex flex-col w-full px-2 bm:px-1 mx-auto">
-        {/* Header */}
-        <div className="flex w-[98%] bw:w-[95%] justify-between mx-auto items-center mb-[1.7rem]">
-          <h1 className="text-[1.5rem] font-metropolis">
-            <span className="font-medium">Join </span>
-            <span className="font-bold">
-              the Tri
-              <span className="decoration-[0.15rem] underline decoration-red-500">be</span>
-            </span>
-          </h1>
-        </div>
+        <div className="flex w-full max-w-[1600px] mx-auto">    
+          <div className="flex flex-col w-full px-2 bm:px-1 mx-auto">
+            {/* Header */}
+            <div className="flex w-[98%] bw:w-[93%] bm:w-[94%] xl:w-[95%] justify-between mx-auto items-center mb-[1.7rem]">
+              <h1 className="text-[1.5rem] font-metropolis">
+                <span className="font-medium">Join </span>
+                <span className="font-bold">
+                  the Tri
+                  <span className="decoration-[0.15rem] underline decoration-red-500">be</span>
+                </span>
+              </h1>
+            </div>
 
-        {/* Horizontal Scroll Container */}
-        <div className="w-full mx-auto">
-          <div className="w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
-            {videoSources.map((item) => (
-              <div key={item.id} className="border border-gray-200 rounded-xl cursor-pointer">
-                <div className="w-[242px] h-[410px] overflow-hidden rounded-t-xl cursor-pointer flex-shrink-0">
-                  <video
-                    ref={(ref) => {
-                      if (ref) videoRefs.current.set(item.id, ref);
-                      else videoRefs.current.delete(item.id); 
-                    }}
-                    data-id={item.id}
-                    src={item.videoSrc}
-                    className="video-item inset-0 w-full h-full object-cover"
-                    muted
-                    loop 
-                  />
-                </div>
-                {/* mini image */}
-                <div className="border border-gray-100 bg-white w-[50px] mx-24 h-[50px] mt-[-30px] relative">
-                    <img src={item.imageSrc} alt="img" width={50} height={50}/>
-                </div>
-                {/* text and price and percentage section */}
-                <div className="flex flex-col justify-center items-center gap-4 mt-8 mb-2">
-                    <div>
-                      <h1 className="text-[14px] font-semibold">{item.name}</h1>
+            {/* Horizontal Scroll Container */}
+            <div className="w-full mx-auto">
+              <div className="w-[90%] bw:w-[90%] md:w-[92%] bm:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
+                {videoSources.map((item) => (
+                  <div key={item.id} className="border border-gray-200 rounded-xl cursor-pointer">
+                    <div className="w-[242px] h-[410px] overflow-hidden rounded-t-xl cursor-pointer flex-shrink-0">
+                      <video
+                        ref={(ref) => {
+                          if (ref) videoRefs.current.set(item.id, ref);
+                          else videoRefs.current.delete(item.id); 
+                        }}
+                        data-id={item.id}
+                        src={item.videoSrc}
+                        className="video-item inset-0 w-full h-full object-cover"
+                        muted
+                        loop 
+                      />
                     </div>
-                    <div className="flex items-center gap-2">
-                        <h1 className="text-[17px] font-metropolis font-semibold">₹{item.price}</h1>
-                        <h1 className="line-through text-[14px] text-gray-400 font-metropolis">₹{item.wrongPrice}</h1>
-                        <h2 className="text-[14px] text-[#0e946a] font-metropolis">{item.percentage}% off</h2>
+                    {/* mini image */}
+                    <div className="border border-gray-100 bg-white w-[50px] mx-24 h-[50px] mt-[-30px] relative">
+                        <img src={item.imageSrc} alt="img" width={50} height={50}/>
                     </div>
-                </div>
+                    {/* text and price and percentage section */}
+                    <div className="flex flex-col justify-center items-center gap-4 mt-8 mb-2">
+                        <div>
+                          <h1 className="text-[14px] font-semibold">{item.name}</h1>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <h1 className="text-[17px] font-metropolis font-semibold">₹{item.price}</h1>
+                            <h1 className="line-through text-[14px] text-gray-400 font-metropolis">₹{item.wrongPrice}</h1>
+                            <h2 className="text-[14px] text-[#0e946a] font-metropolis">{item.percentage}% off</h2>
+                        </div>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
-        </div>
       </div>
     </div>
   );

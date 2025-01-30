@@ -24,10 +24,10 @@ const Bestsellers = () => {
 
   return (
     <div className="mt-6">
-      <div>
+      <div className="flex w-full max-w-[1600px] mx-auto">      
         <div className="flex flex-col w-full px-2 bm:px-1 mx-auto">
               {/* header */}
-              <div className="flex w-[98%] bw:w-[95%] justify-between mx-auto items-center mb-[1.7rem]">
+              <div className="flex w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] justify-between mx-auto items-center mb-[1.7rem]">
                 <div>
                   <h1 className="text-[1.5rem] font-metropolis">
                     <span className="font-medium">Explore </span>{" "}
@@ -43,7 +43,7 @@ const Bestsellers = () => {
 
               {/* Horizontal Scroll Container */}
               <div className='w-full mx-auto'>
-                <div className="w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
+                <div className="w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
                   {[
                     { id: 1, title: "Smartwatches", videoSrc: video1 },
                     { id: 2, title: "Wireless Earbuds", videoSrc: video2 },

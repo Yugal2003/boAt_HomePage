@@ -128,7 +128,7 @@ const Scrollbar = () => {
   return (
     <div>
       {/* image slider content */}
-      <div className="mt-20 md:mt-28 relative overflow-y-hidden">
+      <div className="mt-20 md:mt-20 relative overflow-y-hidden">
         {windowWidth >= 768 ? (
           <>
             <Slider ref={sliderRef} {...sliderSettings}>
@@ -176,15 +176,15 @@ const Scrollbar = () => {
 
       {/* 0% EMI */}
       <div>
-        {/* below 1000px */}
-        <div className="flex bm:hidden mt-[-0.3rem]">
-          <img src={mobileEMI} alt="img_mobile" className="object-contain" />
-        </div>
+          {/* below 1000px */}
+          <div className="flex bm:hidden mt-[-0.3rem]">
+            <img src={mobileEMI} alt="img_mobile" className="w-full" />
+          </div>
 
-        {/* above 1000px */}
-        <div className="hidden bm:block mt-[-0.3rem]">
-          <img src={desktopEMI} alt="img_desktop" className="object-contain" />
-        </div>
+          {/* above 1000px */}
+          <div className="hidden bm:block mt-[-0.3rem]">
+            <img src={desktopEMI} alt="img_desktop" className="w-full" />
+          </div>
       </div>
 
 

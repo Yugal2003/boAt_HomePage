@@ -12,10 +12,10 @@ import star from '../../assets/SellisLive/star.webp'
 const SaleLive = () => {
   return (
     <div className='mt-6 pt-4 md:pt-0'>
-        <div>
+        <div className="flex w-full max-w-[1600px] mx-auto">    
             <div className='flex flex-col w-full px-2 bm:px-1 mx-auto'>
                 {/* header */}
-                <div className='flex w-[98%] bw:w-[95%] justify-between mx-auto items-center'>
+                <div className='flex w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] justify-between mx-auto items-center'>
                     <div>
                         <h1 className='text-[1.5rem]'><span className='font-semibold'>Sale</span> <span className='font-bold'>Is Li<span className='decoration-[0.15rem] underline decoration-red-500'>ve</span></span></h1>
                     </div>
@@ -25,7 +25,7 @@ const SaleLive = () => {
                 </div>
 
                 {/* text with img */}
-                <div className='w-full bw:w-[95%] mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
+                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
 
                     {/* first */}
                     <div>
