@@ -1567,8 +1567,8 @@ const RepublicDeals = () => {
                 </div>
 
                 {/* 5 Option to select */}
-                <div className='w-full'>
-                    <div className='flex gap-6 my-2 items-center w-[98%] bw:w-[95%] mx-auto'>
+                <div className='w-full overflow-x-auto sm:overflow-x-hidden mx-auto scrollbar-hide'>
+                    <div className='flex gap-3 sm:gap-6 my-3 sm:my-2 items-center w-max sm:w-[95%] mx-auto whitespace-nowrap'>
                         {sections.map((section) => (
                             <div
                                 key={section.key}
