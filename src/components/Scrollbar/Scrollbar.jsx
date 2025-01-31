@@ -85,7 +85,7 @@ const Scrollbar = () => {
 
   const PrevArrow = ({ onClick }) => (
     <div
-      className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+      className="absolute left-6 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
       onClick={onClick}
     >
       <MdOutlineArrowBackIosNew
@@ -100,7 +100,7 @@ const Scrollbar = () => {
 
   const NextArrow = ({ onClick }) => (
     <div
-      className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+      className="absolute right-6 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
       onClick={onClick}
     >
       <MdOutlineArrowForwardIos

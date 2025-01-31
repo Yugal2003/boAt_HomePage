@@ -55,9 +55,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-square relative overflow-hidden'>
-                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={first} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -72,7 +72,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -81,18 +81,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-semibold font-metropolis text-[14px] bm:text-[19px]'>₹999</h1>
+                                        <h1 className='flex items-center font-semibold font-metropolis text-[0.875rem] bm:text-[1.1875rem]'>₹999</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-gray-500 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>71% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>71% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +104,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-square relative overflow-hidden'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={second} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -121,7 +121,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -130,18 +130,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>62% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>62% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -153,9 +153,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-square relative overflow-hidden'>
-                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={third} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -170,7 +170,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -179,18 +179,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>66% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>66% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -202,9 +202,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-square relative overflow-hidden'>
-                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
+                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={fourth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -219,7 +219,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -228,18 +228,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-gray-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-sky-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>76% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>76% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -251,9 +251,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-square relative overflow-hidden'>
-                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span> */}
+                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={fifth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -268,7 +268,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -277,18 +277,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 border border-gray-300 bg-white w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>80% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>80% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -300,9 +300,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-square relative overflow-hidden'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🚀 Bestseller</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={six} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -317,7 +317,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -326,18 +326,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,099</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,099</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+3</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+3</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>72% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>72% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -356,9 +356,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={seven} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -373,7 +373,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -382,18 +382,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-semibold font-metropolis text-[14px] bm:text-[19px]'>₹999</h1>
+                                        <h1 className='flex items-center font-semibold font-metropolis text-[0.875rem] bm:text-[1.1875rem]'>₹999</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-gray-500 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>71% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>71% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -405,9 +405,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={eight} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -422,7 +422,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -431,18 +431,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>62% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>62% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -454,9 +454,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={nine} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -471,7 +471,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -480,18 +480,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>66% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>66% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -503,9 +503,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
+                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={ten} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -520,7 +520,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -529,18 +529,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-gray-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-sky-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>76% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>76% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -552,9 +552,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span> */}
+                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={elevan} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -569,7 +569,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -578,18 +578,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 border border-gray-300 bg-white w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>80% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>80% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -601,9 +601,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🚀 Bestseller</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={twelve} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -618,7 +618,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -627,18 +627,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,099</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,099</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+3</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+3</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>72% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>72% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -657,9 +657,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={thirteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -674,7 +674,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -683,18 +683,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-semibold font-metropolis text-[14px] bm:text-[19px]'>₹999</h1>
+                                        <h1 className='flex items-center font-semibold font-metropolis text-[0.875rem] bm:text-[1.1875rem]'>₹999</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-gray-500 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>71% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>71% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -706,9 +706,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={fourteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -723,7 +723,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -732,18 +732,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>62% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>62% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -755,9 +755,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={fifteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -772,7 +772,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -781,18 +781,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>66% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>66% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -804,9 +804,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
+                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={sixteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -821,7 +821,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -830,18 +830,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-gray-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-sky-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>76% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>76% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -853,9 +853,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span> */}
+                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={seventeen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -870,7 +870,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -879,18 +879,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 border border-gray-300 bg-white w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>80% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>80% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -902,9 +902,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🚀 Bestseller</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={eighteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -919,7 +919,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -928,18 +928,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,099</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,099</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+3</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+3</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>72% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>72% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -958,9 +958,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={nineteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -975,7 +975,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -984,18 +984,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-semibold font-metropolis text-[14px] bm:text-[19px]'>₹999</h1>
+                                        <h1 className='flex items-center font-semibold font-metropolis text-[0.875rem] bm:text-[1.1875rem]'>₹999</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-gray-500 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>71% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>71% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1007,9 +1007,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={twenty} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -1024,7 +1024,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -1033,18 +1033,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>62% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>62% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1056,9 +1056,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={twentyOne} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -1073,7 +1073,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1082,18 +1082,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>66% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>66% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -1105,9 +1105,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
+                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={twentyTwo} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -1122,7 +1122,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1131,18 +1131,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-gray-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-sky-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>76% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>76% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -1154,9 +1154,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span> */}
+                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={twentyThree} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -1171,7 +1171,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -1180,18 +1180,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 border border-gray-300 bg-white w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>80% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>80% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1203,9 +1203,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🚀 Bestseller</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={twentyFour} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -1220,7 +1220,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -1229,18 +1229,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,099</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,099</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+3</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+3</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>72% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>72% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1259,9 +1259,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                            <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={twentyFive} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -1276,7 +1276,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -1285,18 +1285,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-semibold font-metropolis text-[14px] bm:text-[19px]'>₹999</h1>
+                                        <h1 className='flex items-center font-semibold font-metropolis text-[0.875rem] bm:text-[1.1875rem]'>₹999</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-gray-500 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>71% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,490</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>71% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1308,9 +1308,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={twentySix} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -1325,7 +1325,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -1334,18 +1334,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>62% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,499</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>62% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1357,9 +1357,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
+                                <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={twentySeven} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -1374,7 +1374,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1383,18 +1383,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,699</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,699</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>66% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>66% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -1406,9 +1406,9 @@ const RepublicDeals = () => {
                 <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
-                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
+                                <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={twentyEight} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -1423,7 +1423,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1432,18 +1432,18 @@ const RepublicDeals = () => {
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
                                             {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                            <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                            <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                         </div>
                                         <div className='relative flex items-center'>
                                             <div className='absolute left-0 z-10 bg-gray-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                             <div className='absolute left-2 z-20 bg-sky-300 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                            <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+2</span>
+                                            <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+2</span>
                                         </div>
                                     </div>
                                     {/* 64% off */}
                                     <div className='px-2 flex items-center gap-2'>
-                                        <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
-                                        <h2 className='text-[10px] text-[#0e946a] font-bold'>76% off</h2>
+                                        <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹4,990</h1>
+                                        <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>76% off</h2>
                                     </div>
                                 </div>
                             </div>
@@ -1455,9 +1455,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span> */}
+                            {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={twentyNine} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -1472,7 +1472,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -1481,18 +1481,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,199</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,199</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 border border-gray-300 bg-white w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+1</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+1</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>80% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹5,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>80% off</h2>
                                 </div>
                             </div>
                         </div>
@@ -1504,9 +1504,9 @@ const RepublicDeals = () => {
                 <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
-                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🚀 Bestseller</span>
+                            <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={TheerTeen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[8px] bm:text-[10px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -1521,7 +1521,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[12px] bm:text-[15px] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -1530,18 +1530,18 @@ const RepublicDeals = () => {
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
-                                        <h1 className='flex items-center font-bold text-[14px] bm:text-[19px]'>₹1,099</h1>
+                                        <h1 className='flex items-center font-bold text-[0.875rem] bm:text-[1.1875rem]'>₹1,099</h1>
                                     </div>
                                     <div className='relative flex items-center'>
                                         <div className='absolute left-0 z-10 bg-black w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
                                         <div className='absolute left-2 z-20 bg-blue-900 w-3 h-3 bm:w-4 bm:h-4 rounded-full'></div>
-                                        <span className='ml-6 text-gray-500 text-[10px] bm:text-[14px] font-semibold'>+3</span>
+                                        <span className='ml-6 text-gray-500 text-[0.625rem] bm:text-[0.875rem] font-semibold'>+3</span>
                                     </div>
                                 </div>
                                 {/* 64% off */}
                                 <div className='px-2 flex items-center gap-2'>
-                                    <h1 className='line-through text-[10px] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
-                                    <h2 className='text-[10px] text-[#0e946a] font-bold'>72% off</h2>
+                                    <h1 className='line-through text-[0.625rem] text-gray-400 font-semibold font-metropolis'>₹3,990</h1>
+                                    <h2 className='text-[0.625rem] text-[#0e946a] font-bold'>72% off</h2>
                                 </div>
                             </div>
                         </div>
