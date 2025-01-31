@@ -25,7 +25,7 @@ const SaleLive = () => {
                 </div>
 
                 {/* text with img */}
-                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
+                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-1.5 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
 
                     {/* first */}
                     <div>
@@ -54,7 +54,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-semibold font-metropolis text-sm bm:text-[1.1875rem]'>₹899</h1>
@@ -101,7 +101,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-bold text-sm bm:text-[1.1875rem]'>₹1,099</h1>
@@ -148,7 +148,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-bold text-sm bm:text-[1.1875rem]'>₹799</h1>
@@ -195,7 +195,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-bold text-sm bm:text-[1.1875rem]'>₹1,499</h1>
@@ -242,7 +242,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-bold text-sm bm:text-[1.1875rem]'>₹1,199</h1>
@@ -289,7 +289,7 @@ const SaleLive = () => {
                             {/* 899 */}
                             <div className='pb-1'>
                                 {/* $899 and +3 */}
-                                <div className='flex justify-between px-2 items-center'>
+                                <div className='flex justify-between px-2 items-center py-1.5'>
                                     <div className='flex items-center'>
                                         {/* <LiaRupeeSignSolid size={18} className='font-extrabold'/> */}
                                         <h1 className='flex items-center font-bold text-sm bm:text-[1.1875rem]'>₹1,799</h1>

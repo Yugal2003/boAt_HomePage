@@ -112,7 +112,7 @@ const JoinTheTribe = () => {
 
             {/* Horizontal Scroll Container */}
             <div className="w-full mx-auto">
-              <div className="w-[90%] bw:w-[90%] md:w-[92%] bm:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
+              <div className="scroll-container w-[90%] bw:w-[90%] md:w-[92%] bm:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2">
                 {videoSources.map((item) => (
                   <div key={item.id} className="border border-gray-200 rounded-xl cursor-pointer">
                     <div className="w-[242px] h-[410px] overflow-hidden rounded-t-xl cursor-pointer flex-shrink-0">

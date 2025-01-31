@@ -1559,7 +1559,7 @@ const RepublicDeals = () => {
                 {/* header */}
                 <div className='w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex justify-between mx-auto items-center'>                
                     <div>
-                        <h1 className='text-[1.5rem] font-metropolis'><span className='font-medium'>Republic Day</span> <span className='font-bold'>Dea<span className='decoration-[0.15rem] underline decoration-red-500'>ls</span></span></h1>
+                        <h1 className='text-[1.5rem] font-metropolis'><span className='font-medium'>Big Sale</span> <span className='font-bold'>Big Savin<span className='decoration-[0.15rem] underline decoration-red-500'>gs</span></span></h1>
                     </div>
                     <div>
                         <button className='flex items-center gap-2 text-[0.9rem] text-[#264978] font-extrabold'>View All <FiArrowRightCircle size={18}/></button>

@@ -9,6 +9,14 @@ html, body {
   scrollbar-width: none; 
 }
 
+.scroll-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.scroll-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
 
 .slick-dots {
     position: absolute;

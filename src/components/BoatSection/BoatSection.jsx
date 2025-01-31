@@ -66,7 +66,7 @@ const BoatSection = () => {
   return (
         <div className="fixed z-50 top-10 base:top-8 bg-white border border-b-gray-200 w-full px-1 md:px-10 h-14 md:h-20 xl:h-23 flex items-center">
             <div className="my-5 w-full mx-auto flex justify-center items-center">
-                <div className="flex w-full max-w-[1500px]">
+                <div className="flex w-full max-w-[1500px] mx-auto">
                     <div className="flex flex-row w-full justify-between items-center">
                     
                     {/* xl laptop screen */}

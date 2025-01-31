@@ -43,7 +43,7 @@ const Bestsellers = () => {
 
               {/* Horizontal Scroll Container */}
               <div className='w-full mx-auto'>
-                <div className="w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2 scrollbar-hide">
+                <div className="scroll-container w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2">
                   {[
                     { id: 1, title: "Smartwatches", videoSrc: video1 },
                     { id: 2, title: "Wireless Earbuds", videoSrc: video2 },
