@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import video1 from "../../assets/JoinTheTribe/first.mp4";
 import video2 from "../../assets/JoinTheTribe/second.mp4";
 import video3 from "../../assets/JoinTheTribe/third.mp4";
@@ -42,39 +42,43 @@ import eighteen from '../../assets/JoinTheTribe/eighteen.avif';
 import nineteen from '../../assets/JoinTheTribe/nineteen.avif';
 import twenty from '../../assets/JoinTheTribe/twenty.avif';
 import twentyone from '../../assets/JoinTheTribe/twentyone.avif';
+import { company } from "../../constant/contant";
 
 const videoSources = [
-  { id: 1,name : "boAt Airdopes 71",price : "999",wrongPrice : "3,990",percentage : 75,imageSrc : first,videoSrc: video1 },
-  { id: 2,name : "boAt Airdopes 161 Pro",price : "1,199",wrongPrice : "4,490",percentage : 73,imageSrc : second,videoSrc: video2 },
-  { id: 3,name : "boAt Nirvana Ion ANC",price : "2,199",wrongPrice : "9,990",percentage : 78,imageSrc : third,videoSrc: video3 },
-  { id: 4,name : "boAt Rockerz 245 V2 Pro",price : "1,499",wrongPrice : "3,490",percentage : 57,imageSrc : fourth,videoSrc: video4 },
-  { id: 5,name : "boAt Airdopes 131",price : "849",wrongPrice : "2,990",percentage : 72,imageSrc : fifth,videoSrc: video5 },
-  { id: 6,name : "boAt Airdopes 100",price : "1,099",wrongPrice : "3,490",percentage : 69,imageSrc : six,videoSrc: video6 },
-  { id: 7,name : "boAt Wave Sigma",price : "1,599",wrongPrice : "7,499",percentage : 79,imageSrc : seven,videoSrc: video7 },
-  { id: 8,name : "boAt Wave Glory Pro",price : "2,499",wrongPrice : "11,999",percentage : 79,imageSrc : eight,videoSrc: video8 },
-  { id: 9,name : "boAt Primia Celestial",price : "2,099",wrongPrice : "7,999",percentage : 74,imageSrc : nine,videoSrc: video9 },
-  { id: 10,name : "boAt Airdopes 170",price : "1,599",wrongPrice : "3,490",percentage : 54,imageSrc : ten,videoSrc: video10 },
-  { id: 11,name : "boAt Katana Blade",price : "2,299",wrongPrice : "3,999",percentage : 43,imageSrc : elevan,videoSrc: video11 },
-  { id: 12,name : "boAt Airdopes Alpha",price : "999",wrongPrice : "3,490",percentage : 71,imageSrc : twelve,videoSrc: video12 },
-  { id: 13,name : "boAt Stone 350",price : "1,499",wrongPrice : "3,490",percentage : 57,imageSrc : thirteen,videoSrc: video13 },
-  { id: 14,name : "boAt Storm Call 2",price : "1,399",wrongPrice : "6,999",percentage : 80,imageSrc : fourteen,videoSrc: video14 },
-  { id: 15,name : "boAt Wave Elevate",price : "1,899",wrongPrice : "6,499",percentage : 71,imageSrc : fifteen,videoSrc: video15 },
-  { id: 16,name : "boAt Stone Ignite",price : "6,999",wrongPrice : "21,990",percentage : 68,imageSrc : sixteen,videoSrc: video16 },
-  { id: 17,name : "boAt Primia Celestial",price : "2,099",wrongPrice : "7,999",percentage : 74,imageSrc : seventeen,videoSrc: video17 },
-  { id: 18,name : "boAt AD 161 Hulk Edition",price : "1,119",wrongPrice : "2,490",percentage : 55,imageSrc : eighteen,videoSrc: video18 },
-  { id: 19,name : "boAt Airdopes 141 ANC",price : "1,199",wrongPrice : "5,990",percentage : 80,imageSrc : nineteen,videoSrc: video19 },
-  { id: 20,name : "boAt AD 161 Thor Edition",price : "1,099",wrongPrice : "2,490",percentage : 56,imageSrc : twenty,videoSrc: video20 },
-  { id: 21,name : "boAt Wave Astra",price : "2,299",wrongPrice : "6,999",percentage : 67,imageSrc : twentyone,videoSrc: video21 }
+  { id: 1,name : `${company.name} Airdopes 71`,price : "999",wrongPrice : "3,990",percentage : 75,imageSrc : first,videoSrc: video1 },
+  { id: 2,name : `${company.name} Airdopes 161 Pro`,price : "1,199",wrongPrice : "4,490",percentage : 73,imageSrc : second,videoSrc: video2 },
+  { id: 3,name : `${company.name} Nirvana Ion ANC`,price : "2,199",wrongPrice : "9,990",percentage : 78,imageSrc : third,videoSrc: video3 },
+  { id: 4,name : `${company.name} Rockerz 245 V2 Pro`,price : "1,499",wrongPrice : "3,490",percentage : 57,imageSrc : fourth,videoSrc: video4 },
+  { id: 5,name : `${company.name} Airdopes 131`,price : "849",wrongPrice : "2,990",percentage : 72,imageSrc : fifth,videoSrc: video5 },
+  { id: 6,name : `${company.name} Airdopes 100`,price : "1,099",wrongPrice : "3,490",percentage : 69,imageSrc : six,videoSrc: video6 },
+  { id: 7,name : `${company.name} Wave Sigma`,price : "1,599",wrongPrice : "7,499",percentage : 79,imageSrc : seven,videoSrc: video7 },
+  { id: 8,name : `${company.name} Wave Glory Pro`,price : "2,499",wrongPrice : "11,999",percentage : 79,imageSrc : eight,videoSrc: video8 },
+  { id: 9,name : `${company.name} Primia Celestial`,price : "2,099",wrongPrice : "7,999",percentage : 74,imageSrc : nine,videoSrc: video9 },
+  { id: 10,name : `${company.name} Airdopes 170`,price : "1,599",wrongPrice : "3,490",percentage : 54,imageSrc : ten,videoSrc: video10 },
+  { id: 11,name : `${company.name} Katana Blade`,price : "2,299",wrongPrice : "3,999",percentage : 43,imageSrc : elevan,videoSrc: video11 },
+  { id: 12,name : `${company.name} Airdopes Alpha`,price : "999",wrongPrice : "3,490",percentage : 71,imageSrc : twelve,videoSrc: video12 },
+  { id: 13,name : `${company.name} Stone 350`,price : "1,499",wrongPrice : "3,490",percentage : 57,imageSrc : thirteen,videoSrc: video13 },
+  { id: 14,name : `${company.name} Storm Call 2`,price : "1,399",wrongPrice : "6,999",percentage : 80,imageSrc : fourteen,videoSrc: video14 },
+  { id: 15,name : `${company.name} Wave Elevate`,price : "1,899",wrongPrice : "6,499",percentage : 71,imageSrc : fifteen,videoSrc: video15 },
+  { id: 16,name : `${company.name} Stone Ignite`,price : "6,999",wrongPrice : "21,990",percentage : 68,imageSrc : sixteen,videoSrc: video16 },
+  { id: 17,name : `${company.name} Primia Celestial`,price : "2,099",wrongPrice : "7,999",percentage : 74,imageSrc : seventeen,videoSrc: video17 },
+  { id: 18,name : `${company.name} AD 161 Hulk Edition`,price : "1,119",wrongPrice : "2,490",percentage : 55,imageSrc : eighteen,videoSrc: video18 },
+  { id: 19,name : `${company.name} Airdopes 141 ANC`,price : "1,199",wrongPrice : "5,990",percentage : 80,imageSrc : nineteen,videoSrc: video19 },
+  { id: 20,name : `${company.name} AD 161 Thor Edition`,price : "1,099",wrongPrice : "2,490",percentage : 56,imageSrc : twenty,videoSrc: video20 },
+  { id: 21,name : `${company.name} Wave Astra`,price : "2,299",wrongPrice : "6,999",percentage : 67,imageSrc : twentyone,videoSrc: video21 }
 ];
 
 const JoinTheTribe = () => {
   const videoRefs = useRef(new Map());
+  const scrollRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
 
   useEffect(() => {
     const handleIntersection = (entries) => {
       entries.forEach((entry) => {
-        const videoId = entry.target.dataset.id;
-        const video = videoRefs.current.get(Number(videoId)); 
+        const video = videoRefs.current.get(Number(entry.target.dataset.id));
         if (video) {
           if (entry.isIntersecting) {
             if (video.paused) video.play();
@@ -87,13 +91,28 @@ const JoinTheTribe = () => {
 
     const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
 
-    const videos = document.querySelectorAll(".video-item");
-    videos.forEach((video) => observer.observe(video));
+    document.querySelectorAll(".video-item").forEach((video) => observer.observe(video));
 
-    return () => {
-      observer.disconnect();
-    };
+    return () => observer.disconnect();
   }, []);
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeft(scrollRef.current.scrollLeft);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 2; 
+    scrollRef.current.scrollLeft = scrollLeft - walk;
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
 
   return (
     <div className="mt-6">
@@ -101,7 +120,7 @@ const JoinTheTribe = () => {
           <div className="flex flex-col w-full px-2 bm:px-1 mx-auto">
             {/* Header */}
             <div className="flex w-[98%] bw:w-[93%] bm:w-[94%] xl:w-[95%] justify-between mx-auto items-center mb-[1.7rem]">
-              <h1 className="text-[1.5rem] font-metropolis">
+              <h1 className="cursor-pointer text-[1.5rem] font-metropolis">
                 <span className="font-medium">Join </span>
                 <span className="font-bold">
                   the Tri
@@ -112,7 +131,13 @@ const JoinTheTribe = () => {
 
             {/* Horizontal Scroll Container */}
             <div className="w-full mx-auto">
-              <div className="scroll-container w-[90%] bw:w-[90%] md:w-[92%] bm:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2">
+              <div 
+              onMouseDown={handleMouseDown}
+              onMouseMove={handleMouseMove}
+              onMouseUp={handleMouseUp}
+              onMouseLeave={handleMouseUp} 
+              ref={scrollRef} 
+              className="scroll-container w-[90%] bw:w-[90%] md:w-[92%] bm:w-[95%] flex mx-auto gap-2 overflow-x-auto px-2">
                 {videoSources.map((item) => (
                   <div key={item.id} className="border border-gray-200 rounded-xl cursor-pointer">
                     <div className="w-[242px] h-[410px] overflow-hidden rounded-t-xl cursor-pointer flex-shrink-0">

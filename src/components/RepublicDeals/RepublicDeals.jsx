@@ -37,6 +37,7 @@ import TheerTeen from '../../assets/RepublicDayDeals/NeckbandsAndHeadphones/six_
 
 import star from '../../assets/SellisLive/star.webp'
 import percentage from '../../assets/percentage.avif';
+import { company } from '../../constant/contant';
 // import { LiaRupeeSignSolid } from "react-icons/lia";
 
 const RepublicDeals = () => {
@@ -72,7 +73,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -121,7 +122,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -170,7 +171,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -219,7 +220,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -268,7 +269,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -317,7 +318,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -373,7 +374,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -422,7 +423,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -471,7 +472,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -520,7 +521,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -569,7 +570,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -618,7 +619,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -674,7 +675,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -723,7 +724,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -772,7 +773,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -821,7 +822,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -870,7 +871,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -919,7 +920,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -975,7 +976,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -1024,7 +1025,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -1073,7 +1074,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1122,7 +1123,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1171,7 +1172,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -1220,7 +1221,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -1276,7 +1277,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -1325,7 +1326,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Energyshroom PB400</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Energyshroom PB400</h1>
                             </div>
 
                             {/* 899 */}
@@ -1374,7 +1375,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Stone 350 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1423,7 +1424,7 @@ const RepublicDeals = () => {
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
                                 <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                    <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                                 </div>
 
                                 {/* 899 */}
@@ -1472,7 +1473,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 141 ANC</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 141 ANC</h1>
                             </div>
 
                             {/* 899 */}
@@ -1521,7 +1522,7 @@ const RepublicDeals = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-xs bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -1559,7 +1560,7 @@ const RepublicDeals = () => {
                 {/* header */}
                 <div className='w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] flex justify-between mx-auto items-center'>                
                     <div>
-                        <h1 className='text-[1.5rem] font-metropolis'><span className='font-medium'>Big Sale</span> <span className='font-bold'>Big Savin<span className='decoration-[0.15rem] underline decoration-red-500'>gs</span></span></h1>
+                        <h1 className='text-[1.5rem] font-metropolis cursor-pointer'><span className='font-medium'>Big Sale</span> <span className='font-bold'>Big Savin<span className='decoration-[0.15rem] underline decoration-red-500'>gs</span></span></h1>
                     </div>
                     <div>
                         <button className='flex items-center gap-2 text-[0.9rem] text-[#264978] font-extrabold'>View All <FiArrowRightCircle size={18}/></button>
@@ -1586,7 +1587,7 @@ const RepublicDeals = () => {
                 </div>
 
                 {/* text with img */}
-                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
+                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-6 mt-2 gap-2 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6 cursor-pointer'> {/* apply grid hear */}
                     {sections.find((section) => section.key === changeImageSection)?.content}
                 </div>
             </div>

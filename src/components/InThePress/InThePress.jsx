@@ -2,6 +2,7 @@ import React from "react";
 import img from "../../assets/InThePress/Business_World_231x.avif";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { company } from "../../constant/contant";
 
 
 const InThePress = () => {
@@ -46,7 +47,7 @@ const InThePress = () => {
                     </p>
                 </div>
                 <div className="px-10">
-                  <h1 className="text-[1.32rem] text-[#666666]">boAt is the first company from the consumer lifestyle electronics industry to collaborate with the ICEA to bring out the Indigenous IP.</h1>
+                  <h1 className="text-[1.32rem] text-[#666666]">{company.name} is the first company from the consumer lifestyle electronics industry to collaborate with the ICEA to bring out the Indigenous IP.</h1>
                 </div>
               </div>
 
@@ -87,7 +88,7 @@ const InThePress = () => {
                   </div>
                   <div className="w-full px-[6.5rem]">
                       <h1 className="text-[20px] lm:text-[24px] text-[#666666]">
-                        boAt is the first company from the consumer lifestyle electronics industry to collaborate with the ICEA to bring out the Indigenous IP.
+                        {company.name} is the first company from the consumer lifestyle electronics industry to collaborate with the ICEA to bring out the Indigenous IP.
                       </h1>
                   </div>
                   <div className="mt-8 mb-6 flex gap-4">

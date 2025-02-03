@@ -9,6 +9,7 @@ import fifth from "../../assets/Blogs/Latest/first.webp";
 import six from "../../assets/Blogs/Latest/second.webp";
 import seven from "../../assets/Blogs/Latest/third.webp";
 import eight from "../../assets/Blogs/Latest/fourth.webp";
+import { company } from "../../constant/contant";
 
 const Blogs = () => {
   const [changeImageSection, setChangeImageSection] = useState("Popular");
@@ -338,7 +339,7 @@ const Blogs = () => {
                           whiteSpace: "normal",
                         }}
                         >
-                        When people show trust in you and your company, you should always find a way to give it back to the society. Here is a round-up of all the things boAt has done for the community & will continue to do. Take a look!
+                        When people show trust in you and your company, you should always find a way to give it back to the society. Here is a round-up of all the things {company.name} has done for the community & will continue to do. Take a look!
                         </h1>
                     </div>
                 </div>
@@ -402,7 +403,7 @@ const Blogs = () => {
                           whiteSpace: "normal",
                         }}
                         >
-                        Imagine Marketing India, the parent company of audio & wearable brand boAt, has ranked among the top 5 global wearable companies this quarter. Find out what's next for boAt.
+                        Imagine Marketing India, the parent company of audio & wearable brand {company.name}, has ranked among the top 5 global wearable companies this quarter. Find out what's next for {company.name}.
                         </h1>
                     </div>
                 </div>
@@ -450,7 +451,7 @@ const Blogs = () => {
                           whiteSpace: "normal",
                         }}
                         >
-                        Scaling Up With New Conviction: boAt Raises INR 500 Crore From Warburg and Malabar; IPO Plans ‘Only a Matter of When, Not If’
+                        Scaling Up With New Conviction: {company.name} Raises INR 500 Crore From Warburg and Malabar; IPO Plans ‘Only a Matter of When, Not If’
                         </h1>
                     </div>
                     {/* Description */}
@@ -466,7 +467,7 @@ const Blogs = () => {
                           whiteSpace: "normal",
                         }}
                         >
-                        boAt Lifestyle secures a raising of INR 500 crore ($60 million) from current investor, Warburg Pincus, and a new investor, Malabar Investments. Learn more about the future of boAt Lifestyle as they reach new heights and explore new opportunities.
+                        {company.name} Lifestyle secures a raising of INR 500 crore ($60 million) from current investor, Warburg Pincus, and a new investor, Malabar Investments. Learn more about the future of {company.name} Lifestyle as they reach new heights and explore new opportunities.
                         </h1>
                     </div>
                 </div>
@@ -514,7 +515,7 @@ const Blogs = () => {
                           whiteSpace: "normal",
                         }}
                         >
-                        boAt Enters Premium Segment with the Launch of Lunar Series Smartwatches
+                        {company.name} Enters Premium Segment with the Launch of Lunar Series Smartwatches
                         </h1>
                     </div>
                     {/* Description */}
@@ -552,7 +553,7 @@ const Blogs = () => {
           {/* header */}
           <div className="flex w-[100%] md:w-[80%] bm:w-[95%] justify-between mx-auto items-center">
             <div>
-              <h1 className="text-[1.5rem] font-metropolis">
+              <h1 className="cursor-pointer text-[1.5rem] font-metropolis">
                 <span className="font-medium"></span>{" "}
                 <span className="font-semibold">
                   Blog

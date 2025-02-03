@@ -13,7 +13,7 @@ const ShopByLifeStyle = () => {
                 {/* header */}
                 <div className='flex w-[98%] bw:w-[95%] justify-between mx-auto items-center'>
                     <div>
-                        <h1 className='text-[1.5rem]'><span className='font-semibold font-m'>Shop by</span> <span className='font-bold font-metropolis'>Lifesty<span className='decoration-[0.15rem] underline decoration-red-500 font-metropolis'>le</span></span></h1>
+                        <h1 className='text-[1.5rem] cursor-pointer'><span className='font-semibold font-m'>Shop by</span> <span className='font-bold font-metropolis'>Lifesty<span className='decoration-[0.15rem] underline decoration-red-500 font-metropolis'>le</span></span></h1>
                     </div>
                     <div>
                         {/* <h1 className='flex items-center gap-2 text-[0.9rem] text-[#264978] font-extrabold'></h1> */}
@@ -24,7 +24,7 @@ const ShopByLifeStyle = () => {
                 <div className='w-[98%] md:w-[95%] mt-1 gap-7 md:gap-5 rounded-md mx-auto grid grid-cols-1 mini:grid-cols-2 md:grid-cols-1 bm:grid-cols-4'> {/* apply grid hear */}
 
                     {/* first */}
-                    <div className=''>
+                    <div className='cursor-pointer'>
                         {/* img */}
                         <div className='relative overflow-hidden'>
                             <img src={jemimi} alt='img' className='relative z-40 w-full h-auto'/>
@@ -43,7 +43,7 @@ const ShopByLifeStyle = () => {
                     </div>
 
                     {/* second */}
-                    <div className=''>
+                    <div className='cursor-pointer'>
                         {/* img */}
                         <div className='relative overflow-hidden'>
                             <img src={ranvir} alt='img' className='relative z-40 w-full h-auto'/>
@@ -62,7 +62,7 @@ const ShopByLifeStyle = () => {
                     </div>
 
                     {/* third */}
-                    <div className=''>
+                    <div className='cursor-pointer'>
                         {/* img */}
                         <div className='relative overflow-hidden'>
                             <img src={Aman} alt='img' className='relative z-40 w-full h-auto'/>
@@ -81,7 +81,7 @@ const ShopByLifeStyle = () => {
                     </div>
 
                     {/* fourth */}
-                    <div className=''>
+                    <div className='cursor-pointer'>
                         {/* img */}
                         <div className='relative overflow-hidden'>
                             <img src={YJ} alt='img' className='relative z-40 w-full h-auto'/>

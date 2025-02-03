@@ -139,7 +139,7 @@ const Scrollbar = () => {
                   <img
                     src={slide.image}
                     alt="images"
-                    className="object-cover w-full h-fit"
+                    className="object-cover w-full h-fit cursor-pointer"
                   />
                   <div
                     className="inset-0 
@@ -159,7 +159,7 @@ const Scrollbar = () => {
                 <img
                   src={slide.image}
                   alt="images"
-                  className="object-cover w-full h-fit"
+                  className="object-cover w-full h-fit cursor-pointer"
                 />
                 <div
                   className="inset-0 
@@ -193,7 +193,7 @@ const Scrollbar = () => {
       {/* 1 year warranty */}
       <div>
           {/* below 768px */}
-          <div className="flex md:hidden">
+          <div className="flex md:hidden cursor-pointer">
             <div className="flex w-[84%] h-full items-center justify-between mx-auto">
 
               {/* first */}
@@ -635,7 +635,7 @@ const Scrollbar = () => {
           </div>
 
           {/* above 768px */}
-          <div className="hidden md:block bg-[#f6faff]">
+          <div className="hidden md:block bg-[#f6faff] cursor-pointer">
               <div className="flex w-[100%] h-[72px] items-center justify-around mx-auto">
 
                 {/* first */}

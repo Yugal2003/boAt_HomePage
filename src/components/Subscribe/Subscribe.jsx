@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { GoPlus } from "react-icons/go";
+import { company } from '../../constant/contant';
 
 const Subscribe = () => {
   return (
@@ -11,7 +12,7 @@ const Subscribe = () => {
                 <div className='mt-24 bg-[#e7f0f5] mx-auto w-[95%] flex md:hidden flex-col justify-center items-center'>
                     {/* boat text */}
                     <div className='pt-8 w-full flex flex-col justify-center items-center'>
-                        <p>
+                        <p className='cursor-pointer'>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 151.848 62.372"
@@ -175,7 +176,7 @@ const Subscribe = () => {
                         <div className='w-[50%]'>
                             <div className='text-[0.85rem] font-semibold font-metropolis'>Company</div>
                             <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-1'>
-                                <h1>About boAt</h1>
+                                <h1>About {company.name}</h1>
                                 <h1>News</h1>
                                 <h1>Red Our Blog</h1>
                                 <h1>Careers</h1>
@@ -194,7 +195,7 @@ const Subscribe = () => {
                     <div className='w-full gap-12 grid grid-cols-4 mx-auto px-10'>
                         {/* boat */}
                         <div className='w-auto'>
-                            <p className='pt-2'>
+                            <p className='pt-2 cursor-pointer'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 151.848 62.372"
@@ -250,16 +251,16 @@ const Subscribe = () => {
                         <div className='w-auto'>
                             <div className='text-[0.85rem] font-semibold font-metropolis'>Shop</div>
                             <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-2'>
-                                <h1>True Wireless Earbuds</h1>
-                                <h1>Wireless Headphones</h1>
-                                <h1>Wired Headphones</h1>
-                                <h1>Wireless Speakers</h1>
-                                <h1>Home Audio</h1>
-                                <h1>Mobile Accessories</h1>
-                                <h1>Smart Watches</h1>
-                                <h1>TRebel</h1>
-                                <h1>Misfit Trimmers</h1>
-                                <h1>Refer & Earn</h1>
+                                <h1 className='cursor-pointer'>True Wireless Earbuds</h1>
+                                <h1 className='cursor-pointer'>Wireless Headphones</h1>
+                                <h1 className='cursor-pointer'>Wired Headphones</h1>
+                                <h1 className='cursor-pointer'>Wireless Speakers</h1>
+                                <h1 className='cursor-pointer'>Home Audio</h1>
+                                <h1 className='cursor-pointer'>Mobile Accessories</h1>
+                                <h1 className='cursor-pointer'>Smart Watches</h1>
+                                <h1 className='cursor-pointer'>TRebel</h1>
+                                <h1 className='cursor-pointer'>Misfit Trimmers</h1>
+                                <h1 className='cursor-pointer'>Refer & Earn</h1>
                             </div>
                         </div>
 
@@ -268,12 +269,12 @@ const Subscribe = () => {
                             <div className='justify-start items-start w-full flex flex-col'>
                                 <div className='text-[0.85rem] font-semibold font-metropolis'>Help</div>
                                     <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-1'>
-                                        <h1>Track Your Order</h1>
-                                        <h1>Warranty & Support</h1>
-                                        <h1>Return Policy</h1>
-                                        <h1>Service Centers</h1>
-                                        <h1>Bulk Orders</h1>
-                                        <h1>Why Buy Direct</h1>
+                                        <h1 className='cursor-pointer'>Track Your Order</h1>
+                                        <h1 className='cursor-pointer'>Warranty & Support</h1>
+                                        <h1 className='cursor-pointer'>Return Policy</h1>
+                                        <h1 className='cursor-pointer'>Service Centers</h1>
+                                        <h1 className='cursor-pointer'>Bulk Orders</h1>
+                                        <h1 className='cursor-pointer'>Why Buy Direct</h1>
                                     </div>
                                 </div>
                         </div>
@@ -282,14 +283,14 @@ const Subscribe = () => {
                         <div className='w-auto'>
                             <div className='text-[0.85rem] font-semibold font-metropolis'>Company</div>
                             <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-1'>
-                                <h1>About boAt</h1>
-                                <h1>News</h1>
-                                <h1>Red Our Blog</h1>
-                                <h1>Careers</h1>
-                                <h1>Security</h1>
-                                <h1>Investor Relations</h1>
-                                <h1>Social Responsibility</h1>
-                                <h1>Warranty Policy</h1>
+                                <h1 className='cursor-pointer'>About {company.name}</h1>
+                                <h1 className='cursor-pointer'>News</h1>
+                                <h1 className='cursor-pointer'>Red Our Blog</h1>
+                                <h1 className='cursor-pointer'>Careers</h1>
+                                <h1 className='cursor-pointer'>Security</h1>
+                                <h1 className='cursor-pointer'>Investor Relations</h1>
+                                <h1 className='cursor-pointer'>Social Responsibility</h1>
+                                <h1 className='cursor-pointer'>Warranty Policy</h1>
                             </div>
                         </div>
                     </div>

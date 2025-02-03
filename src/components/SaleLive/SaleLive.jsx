@@ -7,6 +7,7 @@ import fourth from '../../assets/SellisLive/fourth.webp';
 import fifth from '../../assets/SellisLive/fifth.webp';
 import six from '../../assets/SellisLive/six.webp';
 import star from '../../assets/SellisLive/star.webp'
+import { company } from '../../constant/contant';
 // import { LiaRupeeSignSolid } from "react-icons/lia";
 
 const SaleLive = () => {
@@ -17,7 +18,7 @@ const SaleLive = () => {
                 {/* header */}
                 <div className='flex w-[98%] bw:w-[92%] bm:w-[94%] xl:w-[95%] justify-between mx-auto items-center'>
                     <div>
-                        <h1 className='text-[1.5rem]'><span className='font-semibold'>Sale</span> <span className='font-bold'>Is Li<span className='decoration-[0.15rem] underline decoration-red-500'>ve</span></span></h1>
+                        <h1 className='text-[1.5rem] cursor-pointer'><span className='font-semibold'>Sale</span> <span className='font-bold'>Is Li<span className='decoration-[0.15rem] underline decoration-red-500'>ve</span></span></h1>
                     </div>
                     <div>
                         <button className='flex items-center gap-2 text-[0.9rem] text-[#264978] font-extrabold'>View All <FiArrowRightCircle size={18}/></button>
@@ -25,7 +26,7 @@ const SaleLive = () => {
                 </div>
 
                 {/* text with img */}
-                <div className='w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-1.5 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
+                <div className='cursor-pointer w-full bw:w-[92%] bm:w-[94%] xl:w-[95%] md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-1.5 rounded-md mx-auto grid grid-cols-2 base:grid-cols-3 bm:grid-cols-6'> {/* apply grid hear */}
 
                     {/* first */}
                     <div>
@@ -48,7 +49,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 161</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                             </div>
 
                             {/* 899 */}
@@ -95,7 +96,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Rockerz 255 Pro+</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Rockerz 255 Pro+</h1>
                             </div>
 
                             {/* 899 */}
@@ -142,7 +143,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes Alpha</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes Alpha</h1>
                             </div>
 
                             {/* 899 */}
@@ -189,7 +190,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 800</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 800</h1>
                             </div>
 
                             {/* 899 */}
@@ -236,7 +237,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Airdopes 181 Pro</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Airdopes 181 Pro</h1>
                             </div>
 
                             {/* 899 */}
@@ -283,7 +284,7 @@ const SaleLive = () => {
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
                             <div className='flex h-10 bm:h-12 px-2 items-start pt-1 bm:pt-0 bm:items-center border-b-2'>
-                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>boAt Nirvana lon</h1>
+                                <h1 className='text-[0.75rem] bm:text-[0.9375rem] font-bold font-metropolis'>{company.name} Nirvana lon</h1>
                             </div>
 
                             {/* 899 */}

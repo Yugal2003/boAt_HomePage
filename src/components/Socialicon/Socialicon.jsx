@@ -44,8 +44,8 @@ const Socialicon = () => {
                 {/* 767px to end */}
                 <div className="hidden md:block bg-[#e7f0f5] w-[98%] mx-auto">
                     <div className='w-full mx-auto justify-center flex flex-col bw:flex-row items-center gap-6'>
-                        <h1 className='text-[1rem] font-metropolis'>Let's get social</h1>
-                        <div className='flex flex-row gap-6 items-center'>
+                        <h1 className='text-[1rem] font-metropolis font-semibold text-[#293036]'>Let's get social</h1>
+                        <div className='flex flex-row gap-6 items-center cursor-pointer'>
                             <TiSocialFacebook className='text-2xl'/>
                             <FaXTwitter size={18}/>
                             <RiInstagramLine size={20}/>
@@ -54,16 +54,16 @@ const Socialicon = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center items-center mt-8 gap-8'>
-                        <h1 className='text-[10px]'>Privacy Policy</h1>
-                        <h1 className='text-[10px]'>Terms & Conditions</h1>
+                    <div className='flex justify-center items-center mt-8 gap-8 cursor-pointer'>
+                        <h1 className='text-[12px] font-metropolis'>Privacy Policy</h1>
+                        <h1 className='text-[12px] font-metropolis'>Terms & Conditions</h1>
                     </div>
 
-                    <div className='flex text-gray-500 font-semibold justify-center items-center mt-4 text-[0.75rem]'>
+                    <div className='flex text-gray-400 font-semibold justify-center items-center mt-4 text-[0.75rem]'>
                         <h1>© 2025 Imagine Marketing Limited. All Rights Reserved.</h1>
                     </div>
 
-                    <div className='mx-auto px-4 w-[90%] flex flex-col text-center text-gray-500 font-semibold mt-4 text-[0.75rem]'>
+                    <div className='mx-auto px-8 w-[50%] flex flex-col text-center text-gray-400 font-semibold mt-4 text-[0.75rem]'>
                         <h1>For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,Corporate Avenue, Andheri Ghatkopar Link Road,Mumbai, Maharashtra-400093, India</h1>
                     </div>
                 </div>
