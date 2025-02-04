@@ -36,8 +36,10 @@ const BoatSection = () => {
   const [sideBar,setSideBar] = useState(false);
   const [loginPopup,setLoginPopup] = useState(false);
   const [rightPopup,setRightPopup] = useState(false);
+  const [openInput,setOpenInput] = useState(false);
   const popupRef = useRef(null);
   const loginRef = useRef(null);
+  const openRef = useRef(null);
 
 
   const [openCategoriesMini,setOpenCategoriesMini] = useState(false);
@@ -96,6 +98,24 @@ const BoatSection = () => {
   }, [loginPopup]);
 
   useEffect(() => {
+    function handleClickOutside(event) {
+      if (openRef.current && !openRef.current.contains(event.target)) {
+        setOpenInput(false);
+      }
+    }
+
+    if (openInput) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [openInput]);
+
+  useEffect(() => {
     const interval = setInterval(() => {
       setAnimateClass("animate-slide-out");
 
@@ -117,14 +137,14 @@ const BoatSection = () => {
                     {rightPopup && (
                         <div
                             className="fixed inset-0 bg-black/50 transition-opacity duration-1000 z-40"
-                            onClick={() => setRightPopup(false)}  // Clicking outside closes popup
+                            onClick={() => setRightPopup(false)}  
                         ></div>
                     )}
 
                     {loginPopup && (
                         <div
                             className="flex md:hidden fixed inset-0 bg-black/50 transition-opacity duration-1000 z-40"
-                            onClick={() => setLoginPopup(false)}  // Clicking outside closes popup
+                            onClick={() => setLoginPopup(false)}  
                         ></div>
                     )}
 
@@ -363,7 +383,7 @@ const BoatSection = () => {
                         {/* search + icons */}
                         <div className="hidden xl:flex gap-4 pt-1">
                             {/* input */}
-                            <div className="flex bg-[#f4f5f7] items-start rounded-full w-[305px]" style={{padding:"8px 0px"}}>
+                            <div onClick={()=> setOpenInput(true)} className="flex bg-[#f4f5f7] items-start rounded-full w-[305px] z-50" style={{padding:"8px 0px"}}>
                                     <IoSearchOutline size={22} className="ml-2"/> 
                                     <input
                                         type="text"
@@ -371,6 +391,70 @@ const BoatSection = () => {
                                         className={`bg-[#eff4f7] ${animateClass}`}
                                     />
                             </div>
+                                    {
+                                        openInput &&
+                                        <div ref={openRef} className="shadow-md shadow-gray-500 absolute top-10 z-40 bg-white min-w-[250px] max-w-[305px] min-h-[450px]">
+                                            <div className="pt-8 pl-3">
+                                                <h1 className="font-semibold">Most Searched And Bought</h1>
+                                                <div className="grid grid-cols-2 gap-4 w-full pt-6">
+                                                    <div className="w-[100%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={first} alt="" width={40}/>
+                                                        <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={second} alt="" width={40}/>
+                                                        <h1 className="text-xs">Personalised Products</h1>
+                                                    </div>
+                                            
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={third} alt="" width={40}/>
+                                                        <h1 className="text-xs">Neckbands</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={fourth} alt="" width={40}/>
+                                                        <h1 className="text-xs">Smart Watches</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={fifth} alt="" width={40}/>
+                                                        <h1 className="text-xs">Wireless Headphones</h1>
+                                                    </div>
+
+                                                    {/* second */}
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={six} alt="" width={40}/>
+                                                        <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={seven} alt="" width={40}/>
+                                                        <h1 className="text-xs">Personalised Products</h1>
+                                                    </div>
+                                            
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={eight} alt="" width={40}/>
+                                                        <h1 className="text-xs">Neckbands</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={nine} alt="" width={50}/>
+                                                        <h1 className="text-xs">Smart Watches</h1>
+                                                    </div>
+
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={ten} alt="" width={50}/>
+                                                        <h1 className="text-xs">Wireless Headphones</h1>
+                                                    </div>
+                                                    <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                        <img src={sixteen} alt="" width={50}/>
+                                                        <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
                             {/* icons */}
                             <div className="flex items-center gap-4 cursor-pointer">
                                 <FaRegUser className="relative" onClick={()=> setLoginPopup(true)} size={20}/>
@@ -670,7 +754,79 @@ const BoatSection = () => {
 
                         {/* icons(3) */}
                         <div className="hidden md:flex xl:hidden items-center gap-3">
-                            <IoSearchOutline size={22}/>
+                            { !openInput && <IoSearchOutline onClick={()=> setOpenInput(true)} className="relative" size={22}/> }
+                                { openInput && 
+                                    <div className="relative flex bg-[#f4f5f7] items-start rounded-full w-[210px] z-50" style={{padding:"8px 4px"}}>
+                                        <IoSearchOutline size={22}/>
+                                        <input type="text"
+                                        placeholder={placeholders[currentPlaceholder]}
+                                        className={`bg-[#eff4f7] ${animateClass}`}/>
+                                    </div>
+                                }
+                                {
+                                    openInput &&
+                                    <div ref={openRef} className="shadow-md shadow-gray-500 absolute top-14 right-4 z-40 bg-white min-w-[250px] max-w-[305px] min-h-[450px]">
+                                        <div className="pt-8 pl-3">
+                                            <h1 className="font-semibold">Most Searched And Bought</h1>
+                                            <div className="grid grid-cols-2 gap-4 w-full pt-6">
+                                                <div className="w-[100%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={first} alt="" width={40}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={second} alt="" width={40}/>
+                                                    <h1 className="text-xs">Personalised Products</h1>
+                                                </div>
+                                        
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={third} alt="" width={40}/>
+                                                    <h1 className="text-xs">Neckbands</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={fourth} alt="" width={40}/>
+                                                    <h1 className="text-xs">Smart Watches</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={fifth} alt="" width={40}/>
+                                                    <h1 className="text-xs">Wireless Headphones</h1>
+                                                </div>
+
+                                                {/* second */}
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={six} alt="" width={40}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={seven} alt="" width={40}/>
+                                                    <h1 className="text-xs">Personalised Products</h1>
+                                                </div>
+                                        
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={eight} alt="" width={40}/>
+                                                    <h1 className="text-xs">Neckbands</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={nine} alt="" width={50}/>
+                                                    <h1 className="text-xs">Smart Watches</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={ten} alt="" width={50}/>
+                                                    <h1 className="text-xs">Wireless Headphones</h1>
+                                                </div>
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={sixteen} alt="" width={50}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
                             <FaRegUser className="relative" onClick={()=> setLoginPopup(true)} size={20}/>
                                 {
                                     loginPopup && 
@@ -964,7 +1120,79 @@ const BoatSection = () => {
 
                         {/* icons(3) */}
                         <div className="flex md:hidden items-center gap-3">
-                            <IoSearchOutline size={22}/>
+                        { !openInput && <IoSearchOutline onClick={()=> setOpenInput(true)} className="relative" size={22}/> }
+                                { openInput && 
+                                    <div className="relative flex bg-[#f4f5f7] items-start rounded-full w-[210px] z-50" style={{padding:"8px 4px"}}>
+                                        <IoSearchOutline size={22}/>
+                                        <input type="text"
+                                        placeholder={placeholders[currentPlaceholder]}
+                                        className={`bg-[#eff4f7] ${animateClass}`}/>
+                                    </div>
+                                }
+                                {
+                                    openInput &&
+                                    <div ref={openRef} className="shadow-md shadow-gray-500 absolute top-14 right-4 z-40 bg-white min-w-[250px] max-w-[305px] min-h-[450px]">
+                                        <div className="pt-8 pl-3">
+                                            <h1 className="font-semibold">Most Searched And Bought</h1>
+                                            <div className="grid grid-cols-2 gap-4 w-full pt-6">
+                                                <div className="w-[100%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={first} alt="" width={40}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={second} alt="" width={40}/>
+                                                    <h1 className="text-xs">Personalised Products</h1>
+                                                </div>
+                                        
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={third} alt="" width={40}/>
+                                                    <h1 className="text-xs">Neckbands</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={fourth} alt="" width={40}/>
+                                                    <h1 className="text-xs">Smart Watches</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={fifth} alt="" width={40}/>
+                                                    <h1 className="text-xs">Wireless Headphones</h1>
+                                                </div>
+
+                                                {/* second */}
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={six} alt="" width={40}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={seven} alt="" width={40}/>
+                                                    <h1 className="text-xs">Personalised Products</h1>
+                                                </div>
+                                        
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={eight} alt="" width={40}/>
+                                                    <h1 className="text-xs">Neckbands</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={nine} alt="" width={50}/>
+                                                    <h1 className="text-xs">Smart Watches</h1>
+                                                </div>
+
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={ten} alt="" width={50}/>
+                                                    <h1 className="text-xs">Wireless Headphones</h1>
+                                                </div>
+                                                <div className="w-[80%] hover:opacity-75 flex gap-2 justify-center items-center cursor-pointer">
+                                                    <img src={sixteen} alt="" width={50}/>
+                                                    <h1 className="text-xs">True Wireless Earbuds</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
                             <FaRegUser className="relative" onClick={()=> setLoginPopup(true)} size={20}/>
                             {
                                         loginPopup && 
@@ -998,7 +1226,7 @@ const BoatSection = () => {
                                     {
                                         rightPopup && 
                                         <div
-                                            className={`popup-container open fixed top-0 right-0 h-screen min-w-[400px] bg-white shadow-lg z-50 transform transition-transform duration-500 ease-in-out ${
+                                            className={`popup-container open fixed top-0 right-0 h-screen min-w-[250px] base:min-w-[320px] ac:min-w-[400px] bg-white shadow-lg z-50 transform transition-transform duration-500 ease-in-out ${
                                                 rightPopup ? "translate-x-0" : "translate-x-full"
                                             }`}
                                             ref={popupRef}
