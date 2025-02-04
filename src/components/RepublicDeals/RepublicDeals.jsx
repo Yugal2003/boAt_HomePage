@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { FiArrowRightCircle } from "react-icons/fi";
-import first from '../../assets/RepublicDayDeals/AllDeals/first.webp';
-import second from '../../assets/RepublicDayDeals/AllDeals/second.webp';
+import first from '../../assets/RepublicDayDeals/AllDeals/first_1.webp';
+import second from '../../assets/RepublicDayDeals/AllDeals/second_2.webp';
 import third from '../../assets/RepublicDayDeals/AllDeals/third.jpg';
-import fourth from '../../assets/RepublicDayDeals/AllDeals/fourth.webp';
-import fifth from '../../assets/RepublicDayDeals/AllDeals/fifth.webp';
-import six from '../../assets/RepublicDayDeals/AllDeals/six.webp';
+import fourth from '../../assets/RepublicDayDeals/AllDeals/fourth_4.webp';
+import fifth from '../../assets/RepublicDayDeals/AllDeals/fifth_5.webp';
+import six from '../../assets/RepublicDayDeals/AllDeals/six_6.webp';
 
 import seven from '../../assets/RepublicDayDeals/TrueWirelessEarbuds/first_1.webp';
 import eight from '../../assets/RepublicDayDeals/TrueWirelessEarbuds/second.webp';
@@ -55,10 +55,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                         {/* img */}
-                        <div className='aspect-square relative overflow-hidden'>
+                        <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
-                            <img src={first} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <img src={first} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -104,10 +104,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                         {/* img */}
-                        <div className='aspect-square relative overflow-hidden'>
+                        <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
-                            <img src={second} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <img src={second} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -153,10 +153,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                             {/* img */}
-                            <div className='aspect-square relative overflow-hidden'>
+                            <div className='aspect-[16/9] relative'>
                                 <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
-                                <img src={third} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <img src={third} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -202,10 +202,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                             {/* img */}
-                            <div className='aspect-square relative overflow-hidden'>
+                            <div className='aspect-[16/9] relative'>
                                 <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
-                                <img src={fourth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <img src={fourth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -251,10 +251,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                         {/* img */}
-                        <div className='aspect-square relative overflow-hidden'>
+                        <div className='aspect-[16/9] relative'>
                             {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
-                            <img src={fifth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <img src={fifth} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -300,10 +300,10 @@ const RepublicDeals = () => {
             <div>
                 <div>
                         {/* img */}
-                        <div className='aspect-square relative overflow-hidden'>
+                        <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
-                            <img src={six} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <img src={six} alt='img' className='rounded-lg relative z-30 object-cover w-full h-fit' />
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -359,7 +359,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={seven} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -408,7 +408,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={eight} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -457,7 +457,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={nine} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -506,7 +506,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={ten} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -555,7 +555,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={elevan} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -604,7 +604,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={twelve} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -660,7 +660,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={thirteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -709,7 +709,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={fourteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -758,7 +758,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={fifteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -807,7 +807,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={sixteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -856,7 +856,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={seventeen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -905,7 +905,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={eighteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -961,7 +961,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={nineteen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -1010,7 +1010,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={twenty} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -1059,7 +1059,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={twentyOne} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -1108,7 +1108,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={twentyTwo} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -1157,7 +1157,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={twentyThree} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -1206,7 +1206,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={twentyFour} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>
@@ -1262,7 +1262,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={twentyFive} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>35 Hours Playback</h1>
                                 </div>
@@ -1311,7 +1311,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={twentySix} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>20000mAh Power Bank</h1>
                                 </div>
@@ -1360,7 +1360,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                                 <img src={twentySeven} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>12 Hours Playback</h1>
                                     </div>
@@ -1409,7 +1409,7 @@ const RepublicDeals = () => {
                             <div className='aspect-[16/9] relative'>
                                 <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span>
                                 <img src={twentyEight} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>100 Hours Playback</h1>
                                     </div>
@@ -1458,7 +1458,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             {/* <span className='z-50 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🎉 New Launch</span> */}
                             <img src={twentyNine} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>Noise Cancellation</h1>
                                 </div>
@@ -1507,7 +1507,7 @@ const RepublicDeals = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[0.5rem] bm:text-[0.625rem] rounded-tl-lg'>🚀 Bestseller</span>
                             <img src={TheerTeen} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-8 bg-[#fcc50b] text-[0.5rem] bm:text-[0.625rem] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>60 Hours Playback</h1>
                                 </div>

@@ -106,3 +106,34 @@ html, body {
     border-radius: 50%;
     padding: 3px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%); /* Start from outside the screen */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.popup-container {
+  transform: translateX(100%); /* Initially hidden */
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.popup-container.open {
+  animation: slideIn 0.5s ease-in-out forwards;
+}

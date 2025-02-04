@@ -33,7 +33,7 @@ const RecentlyViewed = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={first} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>12 Hours Playback</h1>
                                 </div>
@@ -101,7 +101,7 @@ const RecentlyViewed = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>✍️ Engraving Available</span>
                             <img src={second} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>40 Hours Playback</h1>
                                 </div>
@@ -169,7 +169,7 @@ const RecentlyViewed = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'>🎉 New Launch</span>
                             <img src={third} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>BT Calling</h1>
                                 </div>
@@ -237,7 +237,7 @@ const RecentlyViewed = () => {
                         <div className='aspect-[16/9] relative'>
                             <span className='flex gap-1 items-center z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
                             <img src={fourth} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>100 Hours Playback</h1>
                                 </div>
@@ -313,7 +313,7 @@ const RecentlyViewed = () => {
                             <div className="w-[350px] h-[350px] overflow-hidden rounded-xl cursor-pointer flex-shrink-0">
                                 <img src={first} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
                             </div>
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>40 Hours Playback</h1>
                                 </div>
@@ -376,7 +376,7 @@ const RecentlyViewed = () => {
                             <div className="w-[350px] h-[350px] overflow-hidden rounded-xl cursor-pointer flex-shrink-0">
                                 <img src={second} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
                             </div>
-                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                            <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>40 Hours Playback</h1>
                                 </div>
@@ -439,7 +439,7 @@ const RecentlyViewed = () => {
                                 <div className="w-[350px] h-[350px] overflow-hidden rounded-xl cursor-pointer flex-shrink-0">
                                     <img src={third} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
                                 </div>
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>40 Hours Playback</h1>
                                     </div>
@@ -502,7 +502,7 @@ const RecentlyViewed = () => {
                                 <div className="w-[350px] h-[350px] overflow-hidden rounded-xl cursor-pointer flex-shrink-0">
                                     <img src={fourth} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
                                 </div>
-                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold'>
+                                <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-7 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                     <div>
                                         <h1>40 Hours Playback</h1>
                                     </div>

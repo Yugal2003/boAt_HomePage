@@ -192,15 +192,15 @@ const Subscribe = () => {
                 {/* above bm */}
                 <div className='mt-16 pt-12 hidden bm:flex flex-row mx-auto bg-[#e7f0f5] w-[98%]'>
                     {/*  */}
-                    <div className='w-full gap-12 grid grid-cols-4 mx-auto px-10'>
+                    <div className='w-full gap-0 grid grid-cols-4 mx-auto px-10'>
                         {/* boat */}
-                        <div className='w-auto'>
+                        <div className='w-[120%] pl-2'>
                             <p className='pt-2 cursor-pointer'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 151.848 62.372"
-                                    height="35.372"
-                                    width="85.848"
+                                    height="65.372"
+                                    width="155.848"
                                     data-name="Group 205728"
                                     id="Group_205728"
                                 >
@@ -240,15 +240,15 @@ const Subscribe = () => {
                                     </g>
                                 </svg>
                             </p>
-                            <h1 className='pt-2 text-[1.5rem] font-semibold'>Subscribe to our email alerts!</h1>
-                            <div className='mt-1 flex flex-row h-12 px-2 rounded-xl mx-auto bg-white border border-gray-300 justify-between items-center'>
+                            <h1 className='pt-2 w-full text-[1.5rem] font-semibold'>Subscribe to our email alerts!</h1>
+                            <div className='w-full mt-1 flex flex-row h-12 px-2 rounded-xl mx-auto bg-white border border-gray-300 justify-between items-center'>
                                 <input type='text' className='placeholder:text-gray-600 placeholder:text-sm' placeholder='Enter your email address'/>
                                 <MdKeyboardArrowRight size={20} className='text-gray-500 rounded-full border border-gray-600'/>
                             </div>
                         </div>
 
                         {/* shop */}
-                        <div className='w-auto'>
+                        <div className='w-full ml-32'>
                             <div className='text-[0.85rem] font-semibold font-metropolis'>Shop</div>
                             <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-2'>
                                 <h1 className='cursor-pointer'>True Wireless Earbuds</h1>
@@ -265,7 +265,7 @@ const Subscribe = () => {
                         </div>
 
                         {/* help */}
-                        <div className='w-auto'>
+                        <div className='w-auto ml-44'>
                             <div className='justify-start items-start w-full flex flex-col'>
                                 <div className='text-[0.85rem] font-semibold font-metropolis'>Help</div>
                                     <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-1'>
@@ -280,7 +280,7 @@ const Subscribe = () => {
                         </div>
 
                         {/* company */}
-                        <div className='w-auto'>
+                        <div className='w-auto ml-24'>
                             <div className='text-[0.85rem] font-semibold font-metropolis'>Company</div>
                             <div className='gap-2 text-[0.75rem] font-metropolis text-gray-900 mt-2 grid grid-cols-1'>
                                 <h1 className='cursor-pointer'>About {company.name}</h1>

@@ -47,7 +47,7 @@ const Home = () => {
          {/* Fixed WhatsApp & Message Icons */}
 
          {/* above bm (1000px) */}
-        <div className="fixed bottom-3 right-3 bm:flex hidden flex-col gap-1 z-50">
+        <div className="fixed bottom-3 right-3 bm:flex hidden flex-col gap-1 z-40">
           <a 
             href="https://www.google.com" 
             target="_blank" 
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
 
          {/* 768px to 999px */}
-        <div className="fixed bottom-3 right-3 hidden md:flex bm:hidden flex-col gap-3 z-50">
+        <div className="fixed bottom-3 right-3 hidden md:flex bm:hidden flex-col gap-3 z-40">
           <a 
             href="https://www.google.com"
             target="_blank" 
