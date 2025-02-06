@@ -25,7 +25,7 @@ import {
   MdOutlineArrowForwardIos,
 } from "react-icons/md";
 
-const Scrollbar = () => {
+const Carousel = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const sliderRef = useRef(null);
 
@@ -128,7 +128,7 @@ const Scrollbar = () => {
   return (
     <div>
       {/* image slider content */}
-      <div className="mt-20 md:mt-20 relative overflow-y-hidden">
+      <div className="mt-20 md:mt-24 relative overflow-y-hidden">
         {windowWidth >= 768 ? (
           <>
             <Slider ref={sliderRef} {...sliderSettings}>
@@ -194,7 +194,7 @@ const Scrollbar = () => {
       <div>
           {/* below 768px */}
           <div className="flex md:hidden cursor-pointer">
-            <div className="flex w-[84%] h-full items-center justify-between mx-auto">
+            <div className="flex w-[90%] h-full items-center justify-between mx-auto">
 
               {/* first */}
               <div className="flex flex-col items-center max-h-[58px] max-w-[25%]">
@@ -1080,4 +1080,4 @@ const Scrollbar = () => {
   );
 };
 
-export default Scrollbar;
+export default Carousel;

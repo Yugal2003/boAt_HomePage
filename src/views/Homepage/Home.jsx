@@ -1,22 +1,22 @@
 import React from 'react'
-import Welcomes from '../Welcomes/Welcomes';
-import BoatSection from '../BoatSection/BoatSection';
-import Scrollbar from '../Scrollbar/Scrollbar';
-import SaleLive from '../SaleLive/SaleLive';
-import RepublicDay from '../RepublicDay/RepublicDay';
-import RepublicDeals from '../RepublicDeals/RepublicDeals';
-import ShopByCategories from '../ShopByCategories/ShopByCategories';
-import TopPicksForYou from '../TopPicksForYou/TopPicksForYou';
-import Bestsellers from '../BestSeller/BestSeller';
-import RecentlyViewed from '../RecentlyViewed/RecentlyViewed';
-import ShopByLifeStyle from '../ShopByLifestyle/ShopByLifeStyle';
-import BestOfBoat from '../BestOfBoat/BestOfBoat';
-import JoinTheTribe from '../JoinTheTribe/JoinTheTribe';
-import Blogs from '../Blogs/Blogs';
-import InThePress from '../InThePress/InThePress';
-import Footer from '../Footer/Footer';
-import Subscribe from '../Subscribe/Subscribe';
-import Socialicon from '../Socialicon/Socialicon';
+import AnnounceBar from '../../components/layout/AnnounceBar/AnnounceBar';
+import BoatSection from '../../components/layout/BoatSection/BoatSection';
+import Carousel from '../Homepage/Carousel';
+import SaleLive from '../Homepage/SaleLive';
+import CTA from '../Homepage/CTA';
+import ProductsList from '../Homepage/ProductsList';
+import CategoriesList from '../Homepage/CategoriesList';
+import TopPicksForYou from '../Homepage/TopPicksForYou';
+import CollectionsSlider from '../Homepage/CollectionsSlider';
+import RecentlyViewed from '../Homepage/RecentlyViewed';
+import ShopByLifeStyle from '../Homepage/ShopByLifeStyle';
+import BestOfBoat from '../Homepage/BestOfBoat';
+import JoinTheTribe from '../Homepage/JoinTheTribe';
+import BlogSlider from '../Homepage/BlogSlider';
+import NewsLater from '../Homepage/NewsLater';
+import Footer from '../../components/layout/Footer/Footer';
+import Subscribe from '../Homepage/Subscribe';
+import Socialicon from '../Homepage/Socialicon';
 import Whatsapp from '../../assets/whtsapp.avif';
 import message from '../../assets/message_icon.avif';
 import gift from '../../assets/rewards.webp';
@@ -25,21 +25,21 @@ import personalisation from '../../assets/personalisation.avif'
 const Home = () => {
   return (
     <div>
-        <Welcomes/>
+        <AnnounceBar/>
         <BoatSection/>
-        <Scrollbar/>
+        <Carousel/>
         <SaleLive/>
-        <RepublicDay/>
-        <RepublicDeals/>
-        <ShopByCategories/>
-        <Bestsellers/>
+        <CTA/>
+        <ProductsList/>
+        <CategoriesList/>
+        <CollectionsSlider/>
         <TopPicksForYou/>
         <RecentlyViewed/>
         <ShopByLifeStyle/>
         <BestOfBoat/>
         <JoinTheTribe/>
-        <Blogs/>
-        <InThePress/>
+        <BlogSlider/>
+        <NewsLater/>
         <Subscribe/>
         <Footer/>
         <Socialicon/>

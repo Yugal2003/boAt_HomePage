@@ -9,6 +9,66 @@ import { company } from '../../constant/contant';
 import percentage from '../../assets/percentage.avif';
 
 const RecentlyViewed = () => {
+
+    const sections = [
+        {
+          id: 1,
+          header: "✍️ Engraving Available",
+          imgSrc: first,
+          playback: "120 Hours Playback",
+          rating : 4.9,
+          title : "boAt Stone 350",
+          price : "1,799",
+          color1 : "bg-black",
+          color2 : "bg-blue-900",
+          plus : "+1",
+          wrongPrice : "7,990",
+          off : "77"
+        },
+        {
+        id: 2,
+        header: "EXTRA ₹100 OFF",
+        imgSrc: second,
+        playback: "35 Hours Playback",
+        rating : 4.9,
+        title : "boAt Airdopes Alpha",
+        price : "999",
+        color1 : "bg-black",
+        color2 : "bg-gray-500",
+        plus : "+1",
+        wrongPrice : "3,490",
+        off : "71"
+        },
+        {
+        id: 3,
+        header: "🚀 Bestseller",
+        imgSrc: third,
+        playback: "35 Hours Playback",
+        rating : 4.9,
+        title : "boAt Airdopes Alpha",
+        price : "799",
+        color1 : "bg-black",
+        color2 : "bg-gray-500",
+        plus : "+1",
+        wrongPrice : "3,590",
+        off : "77"
+        },
+        {
+        id: 4,
+        header: "🎉 New Launch",
+        imgSrc: fourth,
+        playback: "Dolby Audio",
+        rating : 4.6,
+        title : "boAt Airdopes 800",
+        price : "1,499",
+        color1 : "bg-black",
+        color2 : "bg-gray-300",
+        plus : "+2",
+        wrongPrice : "6,490",
+        off : "77"
+        },
+      ];
+
   return (
     <div className='mt-6 pt-4 md:pt-0'>
         <div className="flex w-full max-w-[1600px] mx-auto">    
@@ -26,13 +86,14 @@ const RecentlyViewed = () => {
                 {/* text with img */}
                 {/* after bm(1000px) show */}
                 <div className='cursor-pointer w-full bw:w-[95%] pr-0 md:pr-4 bm:pr-0 xl:pr-8 mt-2 gap-2 xl:gap-4 rounded-md mx-auto overflow-x-hidden md:overflow-x-auto bm:overflow-x-hidden scrollbar-default md:scrollbar-hide bm:scrollbar-default hidden bm:grid bm:grid-cols-3 xl:grid-cols-4'> {/* apply grid hear */}
-
-                    {/* first */}
+                    {sections.map(()=> (
+                        <div className='hidden'></div>
+                    ))}
                     <div>
                         {/* img */}
-                        <div className='aspect-[16/9] relative'>
+                        <div className='aspect-square relative'>
                             <span className='flex items-center gap-1 z-40 absolute bg-black text-white pl-1 pr-2 rounded-sm pb-0.5 font-semibold text-[8px] bm:text-[10px] rounded-tl-lg'><span><img width={10} src={percentage} alt='percentage_image'/></span>EXTRA ₹100 OFF</span>
-                            <img src={first} alt='img' className='rounded-lg relative z-30 object-contain w-full h-fit' />
+                            <img src={first} alt='img' className='rounded-lg relative z-30 object-cover w-full h-full' />
                             <div className='rounded-b-lg z-40 absolute bottom-0 left-0 flex justify-between items-center font-metropolis w-full px-2 h-5 bm:h-7 bg-[#fcc50b] text-[10px] bm:text-[12px] font-bold mb-[-4px]'>
                                 <div>
                                     <h1>12 Hours Playback</h1>
@@ -47,7 +108,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Stone 350 Pro</h1>
                                 </div>
@@ -74,7 +135,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-4'>
+                                        <div className='flex items-center gap-2 mt-0 pt-4 border-t-2'>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -95,7 +156,6 @@ const RecentlyViewed = () => {
                         </div>
                     </div>
 
-                    {/* second */}
                     <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
@@ -115,7 +175,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                                 </div>
@@ -142,7 +202,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-4'>
+                                        <div className='flex items-center gap-2 mt-0 pt-4 border-t-2'>  
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -163,7 +223,7 @@ const RecentlyViewed = () => {
                         </div>
                     </div>
 
-                    {/* third */}
+                    
                     <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
@@ -183,7 +243,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Lunar Discovery</h1>
                                 </div>
@@ -210,7 +270,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-4'>
+                                        <div className='flex items-center gap-2 mt-0 pt-4 border-t-2'>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -231,7 +291,6 @@ const RecentlyViewed = () => {
                         </div>
                     </div>
 
-                    {/* fourth */}
                     <div className='block bm:hidden xl:block'>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
@@ -251,7 +310,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-4'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes ProGear</h1>
                                 </div>
@@ -278,7 +337,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-4'>
+                                        <div className='flex items-center gap-2 mt-0 pt-4 border-t-2'>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#eff4f7] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -305,7 +364,6 @@ const RecentlyViewed = () => {
                 <div className='block bm:hidden w-full mx-auto mt-4'>
                     <div className="w-[100%] flex mx-auto gap-6 overflow-x-auto px-2 scrollbar-hide">
                         
-                        {/* first */}
                         <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
@@ -327,7 +385,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                                 </div>
@@ -347,7 +405,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-2'>
+                                        <div className='flex items-center gap-2 mt-0 pt-2 border-t-2'>
                                             <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -368,7 +426,6 @@ const RecentlyViewed = () => {
                         </div>
                         </div>
 
-                        {/* second */}
                         <div>
                         {/* img */}
                         <div className='aspect-[16/9] relative'>
@@ -390,7 +447,7 @@ const RecentlyViewed = () => {
                         {/* text */}
                         <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                             {/* boat airdrops 161 */}
-                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2 border-b-2'>
+                            <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2'>
                                 <div>
                                     <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                                 </div>
@@ -410,7 +467,7 @@ const RecentlyViewed = () => {
                                 {/* $899 and +3 */}
                                 <div className='flex justify-between px-2 items-center'>
                                     <div className='flex items-center'>
-                                        <div className='flex items-center gap-2 mt-2'>
+                                        <div className='flex items-center gap-2 mt-0 pt-2 border-t-2'>  
                                             <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                             <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                         </div>
@@ -431,7 +488,6 @@ const RecentlyViewed = () => {
                         </div>
                         </div>
 
-                        {/* third */}
                         <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
@@ -453,7 +509,7 @@ const RecentlyViewed = () => {
                             {/* text */}
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
-                                <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2 border-b-2'>
+                                <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2'>
                                     <div>
                                         <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                                     </div>
@@ -473,7 +529,7 @@ const RecentlyViewed = () => {
                                     {/* $899 and +3 */}
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
-                                            <div className='flex items-center gap-2 mt-2'>
+                                            <div className='flex items-center gap-2 mt-0 pt-2 border-t-2'>
                                                 <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                                 <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                             </div>
@@ -494,7 +550,6 @@ const RecentlyViewed = () => {
                             </div>
                         </div>
 
-                        {/* fourth */}
                         <div>
                             {/* img */}
                             <div className='aspect-[16/9] relative'>
@@ -516,7 +571,7 @@ const RecentlyViewed = () => {
                             {/* text */}
                             <div className='bg-[#fafafa] rounded-b-lg border border-gray-200 flex flex-col'>
                                 {/* boat airdrops 161 */}
-                                <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2 border-b-2'>
+                                <div className='flex flex-col h-auto px-2 items-start pt-1 bm:pt-2'>
                                     <div>
                                         <h1 className='text-[14px] font-bold font-metropolis'>{company.name} Airdopes 161</h1>
                                     </div>
@@ -536,7 +591,7 @@ const RecentlyViewed = () => {
                                     {/* $899 and +3 */}
                                     <div className='flex justify-between px-2 items-center'>
                                         <div className='flex items-center'>
-                                            <div className='flex items-center gap-2 mt-2'>
+                                            <div className='flex items-center gap-2 mt-0 pt-2 border-t-2'>
                                                 <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>ASAP Charge</button>
                                                 <button className='bg-[#e6e4e4] text-[8px] px-6 rounded-full py-2'>iWP Technology</button>
                                             </div>

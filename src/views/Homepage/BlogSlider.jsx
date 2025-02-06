@@ -20,7 +20,7 @@ const Blogs = () => {
       key: "Popular",
       label: "Popular",
       content: (
-        <div className="lg:grid lg:grid-cols-4 gap-4 flex overflow-x-auto scrollbar-hide whitespace-nowrap">
+        <div className="lg:grid lg:grid-cols-4 gap-6 lg:gap-3 flex overflow-x-auto scrollbar-hide whitespace-nowrap">
           {/* first */}
           <div className="flex-shrink-0 w-72 lg:w-auto">
             <div>
@@ -286,7 +286,7 @@ const Blogs = () => {
       key: "Latest",
       label: "Latest",
       content: (
-        <div className="lg:grid lg:grid-cols-4 gap-4 flex overflow-x-auto whitespace-nowrap">
+        <div className="lg:grid lg:grid-cols-4 gap-6 lg:gap-3 flex overflow-x-auto whitespace-nowrap">
           {/* first */}
           <div className="flex-shrink-0 w-72 lg:w-auto"> 
             <div>

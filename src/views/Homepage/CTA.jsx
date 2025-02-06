@@ -2,7 +2,7 @@ import React from 'react'
 import desktopBanner from '../../assets/RepublicDayLogo/Desktop.webp'
 import mobileBanner from '../../assets/RepublicDayLogo/Mobile.webp'
 
-const RepublicDay = () => {
+const CTA = () => {
   return (
     <div>
         <div className="flex w-full max-w-[1600px] mx-auto">    
@@ -24,4 +24,4 @@ const RepublicDay = () => {
   )
 }
 
-export default RepublicDay;
+export default CTA;
